@@ -4,6 +4,7 @@ on:
   schedule:
     # 每天 UTC 时间 19:40 运行
     - cron: "28 2 * * *"
+    - cron: "38 9 * * *"
   workflow_dispatch: # 允许手动触发
 
 jobs:
